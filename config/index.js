@@ -11,6 +11,10 @@ const config = {
   outputRoot: 'dist',
   plugins: [],
   defineConstants: {
+    //  HTMLElement: function () {},
+    HTMLElement: function() {
+      return false;
+    }
   },
   copy: {
     patterns: [
